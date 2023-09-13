@@ -1,15 +1,13 @@
-import Header from "../Components/Header"
-import MovieList from "../Components/MovieList"
+import Header from "../Components/Header";
+import MovieList from "../Components/MovieList";
 
 const HomePage = () => {
-  
-  return (
-    <div className="h-full flex flex-col gap-10">
-        <Header />
-        <MovieList />
+	return (
+		<div className="h-full flex flex-col gap-10">
+			<Header />
+			<MovieList />
+		</div>
+	);
+};
 
-    </div>
-  )
-}
-
-export default HomePage
+export default HomePage;
