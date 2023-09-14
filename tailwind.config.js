@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bgPoster': "url('src/assets/bgPoster.png')", 
+        'backPoster': "url('src/assets/backPoster.png')", 
       },
     },
   },
