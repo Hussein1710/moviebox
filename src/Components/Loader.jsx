@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 const Loader = ({ showLoader }) => {
 	return (
 		<div

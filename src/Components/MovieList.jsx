@@ -6,11 +6,12 @@ const MovieList = () => {
 	const [movies, setMovies] = useState([]);
 	const fetchMovie = () => {
 		const apiKey = "ac19c1209b3c6763bb59ab9edd1e1202";
-		axios.get(`https://api.themoviedb.org/3/movie/popular`, {
+		axios.get(`https://api.themoviedb.org/3/movie/top_rated`, {
 			params: {
 				api_key: apiKey,
 			},
 		}).then((response) => {
+      console.log(response)
 			const movieData = response.data.results;
 			setMovies(movieData.slice(0, 10)); // Get the first 10 movies
 		});
