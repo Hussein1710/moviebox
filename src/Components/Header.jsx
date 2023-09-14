@@ -7,10 +7,15 @@ import Tomato from "../assets/Tomato.png";
 import { AiOutlineRight } from "react-icons/ai";
 import {GoVideo} from "react-icons/go"
 const Header = () => {
+  const divStyle = {
+    backgroundImage: 'url("src/assets/backPoster.png")',
+    backgroundSize: 'cover',
+    height: '100%',
+  };
   
 	return (
 		<div className="h-[535px] w-full">
-			<div className="bg-bgPoster bg-cover bg-no-repeat h-full">
+			<div style={divStyle}  >
 				<div className="flex justify-between ">
 					<img src={Logo} alt="logo" className="text-[10px]" />
 					<SearchBar />
