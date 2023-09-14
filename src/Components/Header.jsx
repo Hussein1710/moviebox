@@ -4,11 +4,12 @@ import SearchBar from "./SearchBar";
 import Menu from "../assets/Menu.png";
 import Imdb from "../assets/Imdb.png";
 import Tomato from "../assets/Tomato.png";
+import backImg from "../assets/backPoster.png"
 import { AiOutlineRight } from "react-icons/ai";
 import {GoVideo} from "react-icons/go"
 const Header = () => {
   const divStyle = {
-    backgroundImage: 'url("src/assets/backPoster.png")',
+    backgroundImage: `url(${backImg})`,
     backgroundSize: 'cover',
     height: '100%',
   };
