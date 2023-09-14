@@ -10,7 +10,7 @@ const Header = () => {
   
 	return (
 		<div className="h-[535px] w-full">
-			<div className="bg-[url('src/assets/bgPoster.png')] bg-cover bg-no-repeat h-full">
+			<div className="bg-bgPoster bg-cover bg-no-repeat h-full">
 				<div className="flex justify-between ">
 					<img src={Logo} alt="logo" className="text-[10px]" />
 					<SearchBar />
